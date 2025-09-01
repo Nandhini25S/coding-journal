@@ -19,7 +19,6 @@ age = current_year - birth_year
 if age<0:
     print("Invalid birth year...")
 else:
-    century = 100-age
     status = "an adult" if age>=18 else "a minor"
     print(f"You are {age} years old. You are {status}!!")
     print(f"You will turn 100 in the year {birth_year+100}.")
